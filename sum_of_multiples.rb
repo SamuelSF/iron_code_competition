@@ -1,13 +1,11 @@
 class MultipleAdder
 
     def sum_of_multiples(n)
-        nums = []
+        result = 1
         (1..n).each do |i|
             if i % 3 == 0 || i % 5 == 0
-                nums << i
+                result = result + i
             end
-        end
-        result = nums.reduce(1) {|a, b| a * b}
-        result
+        i
     end
 end
