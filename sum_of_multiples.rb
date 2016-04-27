@@ -3,7 +3,7 @@ class MultipleAdder
     def sum_of_multiples(n)
         nums = []
         (1..n).each do |i|
-            if i % 3 == 0 && i % 5 == 0
+            if i % 3 == 0 || i % 5 == 0
                 nums << i
             end
         end
