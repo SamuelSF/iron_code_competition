@@ -6,6 +6,7 @@ class MultipleAdder
             if i % 3 == 0 || i % 5 == 0
                 result = result + i
             end
+        end
         result
     end
 end
