@@ -4,6 +4,7 @@ def RampNumbers
         (1...n).each do |i|
             if is_ramp(i)
                 count = count + 1
+            end
         end
         count
     end
