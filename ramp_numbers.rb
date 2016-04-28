@@ -1,4 +1,4 @@
-def RampNumbers
+class RampNumbers
     def total(n)
         count = 0
         (1...n).each do |i|
@@ -12,6 +12,6 @@ def RampNumbers
     def is_ramp(n)
         num_array = n.to_s.split("")
         sorted_array = num_array.sort
-        num_array == sort_array
+        num_array == sorted_array
     end
 end
